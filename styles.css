@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('img.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f8f5f6ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(218, 133, 147, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 900px;
+    height: 500px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 100px;
+    border: none;
+    border-radius: 40px;
+    width: 300px; /* Added this line to adjust the width */
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #4db5e8;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    background-color: #da2121;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+
+    margin-bottom: 10px;
+    border-radius: 9px;
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+button:hover {
+    background: #003d66;
+}
